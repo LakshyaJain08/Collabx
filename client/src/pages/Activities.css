@@ -1,0 +1,110 @@
+.activities-page {
+  padding: 40px 20px;
+  min-height: calc(100vh - 60px);
+}
+
+.activities-page h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.filter-input,
+.filter-select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 200px;
+}
+
+.filter-input:focus,
+.filter-select:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.activities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  gap: 25px;
+}
+
+.activity-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 25px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.activity-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.activity-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  margin-bottom: 15px;
+}
+
+.activity-header h3 {
+  color: #333;
+  margin: 0;
+  flex: 1;
+}
+
+.activity-type {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.activity-description {
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.6;
+}
+
+.activity-details {
+  margin-bottom: 15px;
+}
+
+.activity-details p {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+.activity-skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.skill-tag {
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 4px 10px;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.no-activities {
+  text-align: center;
+  padding: 40px;
+  color: #666;
+  font-size: 18px;
+}

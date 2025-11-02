@@ -1,0 +1,27 @@
+.create-activity-page {
+  padding: 40px 20px;
+  min-height: calc(100vh - 60px);
+}
+
+.create-activity-page h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+}

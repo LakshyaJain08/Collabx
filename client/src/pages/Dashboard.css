@@ -1,0 +1,76 @@
+.dashboard-page {
+  padding: 40px 20px;
+  min-height: calc(100vh - 60px);
+}
+
+.dashboard-page h1 {
+  margin-bottom: 30px;
+  font-size: 36px;
+}
+
+.dashboard-grid {
+  display: grid;
+  gap: 20px;
+}
+
+.dashboard-main {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.requests-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.request-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.request-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.tasks-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  background-color: #f8f9fa;
+  border-radius: 5px;
+}
+
+.task-item h4 {
+  margin: 0 0 10px 0;
+}
+
+.task-status-select {
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.task-form {
+  background-color: #f8f9fa;
+  padding: 15px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.task-form .form-group {
+  margin-bottom: 15px;
+}
